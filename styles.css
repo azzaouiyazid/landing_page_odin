@@ -8,24 +8,24 @@
 li , a , p,button ,body{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 2.5vh;
     text-decoration: none;
 }
 
-header ,.first_part_right{
+header ,.first_part,#intro{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url(images/background.jpg) no-repeat center center fixed;
     background-size: cover;
     display:flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 20px 10%;
+    padding:2vh 10%;
     color: white;
 }
 
 .logo{
     cursor: pointer;
     margin-right: auto;
-    font-size: 50px;
+    font-size: 6vh;
 }
 
 .menu_links{
@@ -35,7 +35,7 @@ header ,.first_part_right{
 }
 .menu_links li{
     display: inline-block;
-    padding: 0px 20px;
+    padding: 0px 2vh;
   
 }
 .menu_links li a {
@@ -46,27 +46,64 @@ header ,.first_part_right{
     color:rgb(0, 136, 168,0.6);
 }
 button{
-    margin-left: 20px;
-    padding:9px 25px;
+    margin-left: 2vh;
+    padding:2vh 2.5vh;
     background-color: rgb(143, 204, 241);
     border:none;
-    border-radius: 50px;
+    border-radius: 5vh;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 button:hover{
     background-color: rgb(0, 136, 168,0.6);
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 8px #f9f8fc;
 }
+
 main{
     display: flex;
-    align-self: stretch;
-    align-items: center;
+}
+
+.intro{
+    flex:1;
+    height: 50vh;
+    
+}
+.welcome{
+    flex: 1;
+    height: 10vh;
+    text-align: center;
+    padding:20vh;
+    
+   
+}
+.first_part_content{
+    display:flex;
     justify-content: space-between;
-    background-color: #1F2937;
-    color: #f9faf8;
-    flex-flow: column wrap;
+    align-content:center;
+    align-items:flex-end;
+    gap:40vh;
+    
 }
-.first_part_right{
-    height: 100vh;
-    gap: 20px;
+
+.first_part_content p{
+    width: 50vh;
+   
 }
+
+#blue_pill.blue_pill {
+    background-color: rgb(1, 63, 156);
+
+}
+
+
+
+
+  
+  
+  
+   
+  
+  
