@@ -12,7 +12,7 @@ li , a , p,button ,body{
     text-decoration: none;
 }
 
-header ,.first_part,#intro,.body_characters{
+header ,.first_part,#intro,.body_characters,.map_catalog{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url(images/background.jpg) no-repeat center center fixed;
     background-size: cover;
     display:flex;
@@ -73,22 +73,29 @@ main{
 }
 .welcome{
     flex: 1;
-    height: 10vh;
-    text-align: center;
-    padding:20vh;
+    height: auto;
+    text-align:left;
+    padding:10vh 5%;
     
    
 }
 .first_part_content{
-    display:flex;
+    flex:1;
     justify-content: space-between;
     align-content:center;
-    align-items:flex-end;
-    gap:40vh;
+    align-items:flex-start;
+    gap:10vh;
     
 }
 
-
+.first_part_content img{
+    border-style: none;
+    border-radius: 90%;
+   /* align-items: flex-start;*/
+   
+   
+   
+}
 .first_part_content p{
     width: 50vh;
    
@@ -100,16 +107,22 @@ main{
     align-content:center;
     align-items:flex-end;
     gap:40vh;
-    padding:2vh 10%;
+    padding:30vh 10%;
+    
     
   
     
+}
+.player img{
+    border-style: none;
+    border-radius: 60%;
 }
 
 .player img:hover{
     animation: mover 2s infinite alternate;
    
 }
+
 @-webkit-keyframes mover {
     0% {
         transform: translateY(0);
