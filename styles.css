@@ -12,7 +12,7 @@ li , a , p,button ,body{
     text-decoration: none;
 }
 
-header ,.first_part,#intro,.body_characters,.map_catalog{
+header ,.intro,.body_characters,.map_catalog{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url(images/background.jpg) no-repeat center center fixed;
     background-size: cover;
     display:flex;
@@ -57,7 +57,7 @@ button{
 button:hover{
     background-color: rgb(0, 136, 168,0.6);
     border: none;
-    padding: 15px;
+  
     border-radius: 15px;
     box-shadow: inset 0 0 8px #f9f8fc;
 }
@@ -67,9 +67,8 @@ main{
 }
 
 .intro{
-    flex:1;
-    height: 50vh;
-    
+   padding: 70px 10%; 
+   justify-content: space-between;  
 }
 .welcome{
     flex: 1;
@@ -80,17 +79,18 @@ main{
    
 }
 .first_part_content{
-    flex:1;
-    justify-content: space-between;
-    align-content:center;
-    align-items:flex-start;
-    gap:10vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+  
+   
     
 }
 
 .first_part_content img{
     border-style: none;
-    border-radius: 90%;
+    border-radius: 60%;
    /* align-items: flex-start;*/
    
    
@@ -105,9 +105,9 @@ main{
     display:flex;
     justify-content: space-between;
     align-content:center;
-    align-items:flex-end;
-    gap:40vh;
-    padding:30vh 10%;
+    align-items:flex-start;
+    gap:20vh;
+    padding:10vh 10%;
     
     
   
@@ -115,7 +115,7 @@ main{
 }
 .player img{
     border-style: none;
-    border-radius: 60%;
+    border-radius: 0%;
 }
 
 .player img:hover{
