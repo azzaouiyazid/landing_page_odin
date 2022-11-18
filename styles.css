@@ -12,7 +12,7 @@ li , a , p,button ,body{
     text-decoration: none;
 }
 
-header ,.intro,.body_characters,.join_team_header,.quote{
+header ,.intro,.body_characters,.join_team_header,.quote,.join_matrix,.footer{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url(images/background.jpg) no-repeat center center fixed;
     background-size: cover;
     display:flex;
@@ -90,45 +90,48 @@ main{
 .first_part_content img{
     border-style: none;
     border-radius: 60%;
-   /* align-items: flex-start;*/
-   
-   
-   
 }
 .first_part_content p{
     width: 50vh;
-   
 }
 
 .join_team_header{
     font-family: 'Courier New', Courier, monospace;
     padding:5vh 32%;
-   
 }
 .body_characters{
-   
     display:flex;
     justify-content: space-between;
     align-content:center;
     align-items:flex-start;
     gap:20vh;
-    padding:0vh 10%;
-    
-    
-  
-    
+    padding:0vh 10%;  
 }
 .quote {
+    text-shadow: 0 0 5px  rgb(143, 204, 241), 0 0 15px rgb(143, 204, 241), 0 0 30px rgb(143, 204, 241);
     padding: 150px 35%;
-    font-size: 80px;
     color: white;
     font-weight: lighter;
-    font-style:oblique;
-    text-shadow: 0 0 5px  rgb(143, 204, 241), 0 0 15px rgb(143, 204, 241), 0 0 30px rgb(143, 204, 241);
+    font-style:oblique; 
 }
 .quote p{
-    mix-blend-mode: luminosity;
+    font-size: 20px;
 }
+.join_matrix{
+    
+    flex-direction: row;
+    justify-content: space-around;
+    align-content:center;
+    padding: 50px 30%;
+    
+}
+.footer{
+    background: fixed;
+    background-color: black;
+    padding: 10px 40%;
+}
+
+
 .player img{
     border-style: none;
     border-radius: 40%;
