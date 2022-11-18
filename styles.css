@@ -12,7 +12,7 @@ li , a , p,button ,body{
     text-decoration: none;
 }
 
-header ,.intro,.body_characters,.map_catalog{
+header ,.intro,.body_characters,.join_team_header,.quote{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)) no-repeat fixed, url(images/background.jpg) no-repeat center center fixed;
     background-size: cover;
     display:flex;
@@ -67,20 +67,19 @@ main{
 }
 
 .intro{
-   padding: 70px 10%; 
+   padding: 100px 10%; 
    justify-content: space-between;  
 }
 .welcome{
     flex: 1;
     height: auto;
     text-align:left;
-    padding:10vh 5%;
+    
     
    
 }
 .first_part_content{
     display: flex;
-    align-items: center;
     flex-direction: column;
     gap: 30px;
   
@@ -101,21 +100,38 @@ main{
    
 }
 
+.join_team_header{
+    font-family: 'Courier New', Courier, monospace;
+    padding:5vh 32%;
+   
+}
 .body_characters{
+   
     display:flex;
     justify-content: space-between;
     align-content:center;
     align-items:flex-start;
     gap:20vh;
-    padding:10vh 10%;
+    padding:0vh 10%;
     
     
   
     
 }
+.quote {
+    padding: 150px 35%;
+    font-size: 80px;
+    color: white;
+    font-weight: lighter;
+    font-style:oblique;
+    text-shadow: 0 0 5px  rgb(143, 204, 241), 0 0 15px rgb(143, 204, 241), 0 0 30px rgb(143, 204, 241);
+}
+.quote p{
+    mix-blend-mode: luminosity;
+}
 .player img{
     border-style: none;
-    border-radius: 0%;
+    border-radius: 40%;
 }
 
 .player img:hover{
