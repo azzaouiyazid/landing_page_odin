@@ -13,7 +13,7 @@ An HTML/CSS landing page for my second project of the foundations course on the 
 - git :version 2.38.1.
 - Visual studio code : version 1.72.2.
 ## project-objectives
-- familiarisation and implementation of Flexbox method . 
+- familiarization and implementation of Flexbox method . 
 - webpage design based on required model design templates.
 - intermediate CSS animations using @webkit , @keyframes.
 ## references 
